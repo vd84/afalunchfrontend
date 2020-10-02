@@ -11,6 +11,7 @@ export const Popup = ({ closePopup, restaurant, menu }) => {
         </button>
         <h2>{restaurant.Restaurant_Name}</h2>
         <div className="restaurantInfo">
+          
           <p> Address:</p>
           <p> {restaurant.Adress} </p>
           <p> Phone number:</p>
@@ -22,6 +23,7 @@ export const Popup = ({ closePopup, restaurant, menu }) => {
             menu.map((item, key) => {
                 return (
                     <div>
+                        <h2 key={key}> {item.NameOfDay}</h2>
                         <h3 key={key}> {item.Title} </h3>
                         <p key={key}> {item.Ingredients} </p>
                         <h3 key={key}> {item.Price} </h3>
