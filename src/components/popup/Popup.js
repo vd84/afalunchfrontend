@@ -9,12 +9,12 @@ export const Popup = ({ closePopup, restaurant, menu }) => {
         <button className="Button" onClick={closePopup}>
           &times;
         </button>
-        <h2>{restaurant.restaurant_name}</h2>
+        <h2>{restaurant.Restaurant_Name}</h2>
         <div className="restaurantInfo">
           <p> Address:</p>
-          <p> {restaurant.address} </p>
+          <p> {restaurant.Adress} </p>
           <p> Phone number:</p>
-          <p> {restaurant.phone} </p>
+          <p> {restaurant.Phone} </p>
         </div>
         <h2> Lunch Meny</h2>
         <div className="restaurantInfo">

@@ -6,10 +6,10 @@ export const Card = ({togglePopup, restaurnat }) => {
     <div
       className="Card"
       onClick={() => {
-        togglePopup(restaurnat.restaurant_id);
+        togglePopup(restaurnat.Restaurant_Id);
       }}
     >
-      <h2> {restaurnat.restaurant_name} </h2>
+      <h2> {restaurnat.Restaurant_Name} </h2>
     </div>
   );
 };

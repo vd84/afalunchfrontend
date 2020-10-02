@@ -7,7 +7,7 @@ export const CardList = ({togglePopup, restaurants }) => (
     {restaurants &&
       restaurants.map(restaurnat => (
         <Card
-          key={restaurnat.id}
+          key={restaurnat.Restaurant_Id}
           restaurnat={restaurnat}
           togglePopup={togglePopup}
           restaurnatId={restaurnat.id}
