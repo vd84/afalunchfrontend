@@ -1,0 +1,27 @@
+.Card_List{
+    width: 85VM;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Card_List{
+        width: 85VM;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Card_List{
+        width: 85VM;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 20px;
+    }
+}

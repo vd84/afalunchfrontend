@@ -1,0 +1,45 @@
+.App {
+  background-color: #282c34;
+  padding: 100px 100px 30px 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+html,body {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+}
+.searchButton {
+  position: absolute;
+  color: #aaaaaa;
+  background-color: #ffffff;
+  float: right; /* Positioned to the right of the parent container whichever size it is */
+  font-size: 25px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
